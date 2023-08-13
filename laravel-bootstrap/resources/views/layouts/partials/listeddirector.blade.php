@@ -1,0 +1,1 @@
+<p><strong>Name:</strong>{{ $director->name }} <a href="{{route('director.detail', $director->id)}}"><button>View More</button></a></p>
